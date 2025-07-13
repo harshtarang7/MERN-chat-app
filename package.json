@@ -1,0 +1,22 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsx watch ./backend/src/index.ts",
+    "dev": "nodemon --watch './**/*.ts' --exec tsx ./backend/src/index.ts",
+    "dev:ts": "nodemon --watch './**/*.ts' --ext ts --exec tsx ./backend/src/index.ts"
+  },
+  "author": "tarang harsh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
